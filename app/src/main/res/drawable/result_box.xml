@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:bottom="36dp" android:gravity="bottom|center" android:width="334dp" android:height="304dp">
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="2dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+
+            <solid android:color="#03000000" />
+
+            <corners android:radius="55dp" />
+        </shape>
+    </item>
+    <item android:bottom="36dp" android:gravity="bottom|center" android:width="334dp" android:height="304dp">
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="1dp" />
+
+            <solid android:color="#05000000" />
+
+            <corners android:radius="55dp" />
+        </shape>
+    </item>
+    <item android:bottom="36dp" android:gravity="bottom|center" android:width="334dp" android:height="304dp">
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="1dp" />
+
+            <solid android:color="#08000000" />
+
+            <corners android:radius="55dp" />
+        </shape>
+    </item>
+    <item android:bottom="36dp" android:gravity="bottom|center" android:width="334dp" android:height="304dp">
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="1dp" />
+
+            <solid android:color="#0A000000" />
+
+            <corners android:radius="55dp" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ic_group_result"/>
+
+</layer-list>

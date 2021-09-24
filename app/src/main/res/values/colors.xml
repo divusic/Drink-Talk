@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFAC07</color>
+    <color name="ic_launcher_background">#FFAC07</color>
+    <color name="btnCircular">#000000</color>
+    <color name="btnBack">#FFFFFF</color>
+    <color name="inputTxt">#ADADAD</color>
+    <color name="colorDivider">#979797</color>
+</resources>

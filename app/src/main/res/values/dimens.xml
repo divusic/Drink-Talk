@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- game logo dimens -->
+    <dimen name="gameLogoBigWidth">241dp</dimen>
+    <dimen name="gameLogoBigHeight">256dp</dimen>
+
+    <dimen name="gameLogoSmallWidth">169dp</dimen>
+    <dimen name="gameLogoSmallHeight">180dp</dimen>
+
+    <!-- text input dimens -->
+    <!-- inputField dimens -->
+    <dimen name="inputWidth">350dp</dimen>
+    <dimen name="inputHeight">60dp</dimen>
+    <dimen name="inputPaddingStart">30dp</dimen>
+    <dimen name="inputTextSize">12sp</dimen>
+
+    <!-- text dimens -->
+    <!-- welcomeMsg dimens -->
+    <dimen name="welcomeMsgTextSize">30sp</dimen>
+
+    <!-- welcomeNickname dimens-->
+    <dimen name="welcomeNicknameTextSize">30sp</dimen>
+
+    <!-- gameTimeStyle dimens -->
+    <dimen name="gameTimeTextSize">19sp</dimen>
+
+    <!-- listHeader dimens -->
+    <dimen name="listHeaderPaddingStart">50dp</dimen>
+    <dimen name="listHeaderMarginTop">40dp</dimen>
+    <dimen name="listHeaderTextSize">30sp</dimen>
+
+    <!-- playersNicknameText dimens -->
+    <dimen name="playersNicknamePaddingTop">20dp</dimen>
+    <dimen name="playersNicknamePaddingBottom">20dp</dimen>
+    <dimen name="playersNickNameTextSize">19sp</dimen>
+
+    <!-- countdownPhoneDownText dimens -->
+    <dimen name="countdownInfoTextBottomMargin">21dp</dimen>
+    <dimen name="countdownInfoTextSize">15sp</dimen>
+
+    <!-- countdownNumber dimens -->
+    <dimen name="countdownNumberTextSize">100sp</dimen>
+
+    <!-- countdownSecondText dimens -->
+    <dimen name="countdownInfoSecondTextTopMargin">24dp</dimen>
+    <dimen name="countdownInfoSecondTextSize">15sp</dimen>
+
+    <!-- mainText dimens -->
+    <dimen name="mainTextWidth">261dp</dimen>>
+    <dimen name="mainTextPadding">10dp</dimen>
+    <dimen name="mainTextSize">16sp</dimen>
+
+    <!-- loss -->
+    <dimen name="lossTitleTextSize">30sp</dimen>
+    <dimen name="lossPlayerTextSize">19sp</dimen>
+    <dimen name="lossDescriptionTextSize">19sp</dimen>
+
+    <!-- win -->
+    <dimen name="winTitleTextSize">30sp</dimen>
+    <dimen name="winDescriptionTextSize">19sp</dimen>
+
+    <!-- button dimens -->
+    <!-- buttonLogIn dimens -->
+    <dimen name="btnLogInWidth">150dp</dimen>
+    <dimen name="btnLogInHeight">150dp</dimen>
+    <dimen name="btnLogInTextSize">20sp</dimen>
+
+    <!-- buttonBack dimens -->
+    <dimen name="btnBackWidth">41dp</dimen>
+    <dimen name="btnBackHeight">41dp</dimen>
+    <dimen name="btnBackMarginStart">40dp</dimen>
+    <dimen name="btnBackMarginTop">50dp</dimen>
+
+    <!-- buttonCreateGame dimens -->
+    <dimen name="btnCreateGameWidth">200dp</dimen>
+    <dimen name="btnCreateGameHeight">200dp</dimen>
+    <dimen name="btnCreateGameTextSize">20sp</dimen>
+
+    <!-- buttonLogInToExistingGame dimens -->
+    <dimen name="btnLogInToExistingGameHeight">110dp</dimen>
+    <dimen name="btnLogInToExistingGameTextSize">15sp</dimen>
+
+    <!-- buttonExpand dimens -->
+    <dimen name="btnExpandListWidth">41dp</dimen>
+    <dimen name="btnExpandListHeight">41dp</dimen>
+
+    <!-- buttonExitExpandedList -->
+    <dimen name="btnExitExpandedListWidth">41dp</dimen>
+    <dimen name="btnExitExpandedListHeight">41dp</dimen>
+    <dimen name="btnExitExpandedListMarginTop">70dp</dimen>
+    <dimen name="btnExitExpandedListMarginEnd">24dp</dimen>
+
+    <!-- buttonStartGame dimens -->
+    <dimen name="btnStartGameHeight">110dp</dimen>
+    <dimen name="btnStartGameTextSize">15sp</dimen>
+
+    <!-- buttonNewGame dimens -->
+    <dimen name="btnNewGameHeight">110dp</dimen>
+    <dimen name="btnNewGameTextSize">15sp</dimen>
+
+    <!-- widget dimens -->
+    <!-- dropdownMenu dimens -->
+    <dimen name="dropdownWidth">170dp</dimen>
+    <dimen name="dropdownHeight">60dp</dimen>
+    <dimen name="dropdownMenuTextSize">23sp</dimen>
+
+    <!-- layout dimens -->
+    <!-- listView dimens -->
+    <dimen name="listViewMarginStart">50dp</dimen>
+    <dimen name="listViewMarginEnd">50dp</dimen>
+    <dimen name="listViewDividerHeight">5dp</dimen>
+    <dimen name="listViewTextSize">19sp</dimen>
+
+    <!-- spinnerItem dimens -->
+    <dimen name="spinnerItemPaddingStart">20dp</dimen>
+
+    <!-- shapes dimens -->
+    <!-- roundedRectangleWhite dimens -->
+    <dimen name="roundedRectangleWidth">194dp</dimen>
+    <dimen name="roundedRectangleHeight">194dp</dimen>
+
+    <!-- image dimens -->
+    <!-- qrHolderStyle dimens -->
+    <dimen name="qrHolderPadding">20dp</dimen>
+
+</resources>

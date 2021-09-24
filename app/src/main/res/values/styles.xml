@@ -1,0 +1,344 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- general style -->
+    <style name="general" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <!-- game logo styles -->
+    <style name="gameLogoImageBig" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/gameLogoBigWidth</item>
+        <item name="android:layout_height">@dimen/gameLogoBigHeight</item>
+        <item name="srcCompat">@drawable/game_logo</item>
+        <item name="android:contentDescription">@string/gameLogo</item>
+    </style>
+
+    <style name="gameLogoImageSmall" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/gameLogoSmallWidth</item>
+        <item name="android:layout_height">@dimen/gameLogoSmallHeight</item>
+        <item name="srcCompat">@drawable/game_logo</item>
+        <item name="android:contentDescription">@string/gameLogo</item>
+    </style>
+
+    <style name="splashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+    </style>
+
+    <!-- text input styles -->
+    <style name="inputField" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/inputWidth</item>
+        <item name="android:layout_height">@dimen/inputHeight</item>
+        <item name="android:paddingStart">@dimen/inputPaddingStart</item>
+        <item name="android:background">@drawable/input_text</item>
+        <item name="android:hint">@string/nicknameInput</item>
+        <item name="android:textColor">@color/inputTxt</item>
+        <item name="android:textSize">@dimen/inputTextSize</item>
+        <item name="android:fontFamily">@font/gotham_rounded_book</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <!-- text styles -->
+    <style name="welcomeMsg" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/welcomeMsg</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/welcomeMsgTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="welcomeNickname" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/welcomeNicknameTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="gameTimeStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/gameTime</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/gameTimeTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="listHeader" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/listHeaderPaddingStart</item>
+        <item name="android:layout_marginTop">@dimen/listHeaderMarginTop</item>
+        <item name="android:text">@string/listOfPlayersHeader</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/listHeaderTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+    </style>
+
+    <style name="playersNicknameText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/playersNicknamePaddingTop</item>
+        <item name="android:paddingBottom">@dimen/playersNicknamePaddingBottom</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/playersNickNameTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+    </style>
+
+    <style name="countdownPhoneDownText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/countdownInfoTextBottomMargin</item>
+        <item name="android:text">@string/countdownPhoneDown</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/countdownInfoTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="countdownNumber" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/countdownNumber</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/countdownNumberTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="countdownSecondText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/countdownInfoSecondTextTopMargin</item>
+        <item name="android:text">@string/countdownSecond</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/countdownInfoSecondTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="mainText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/mainTextWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/mainTextPadding</item>
+        <item name="android:paddingEnd">@dimen/mainTextPadding</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/mainTextSize</item>
+        <item name="android:fontFamily">@font/gotham_rounded_book</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="GameResultLossTitle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/lossTitle</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/lossTitleTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="GameResultLossPlayer" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/lossPlayerTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="GameResultLossDescription" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/lossDescription</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/lossDescriptionTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="GameResultWinTitle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/winTitle</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/winTitleTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="GameResultWinDescription" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/winDescription</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/winDescriptionTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- button styles -->
+    <style name="buttonLogIn" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/btnLogInWidth</item>
+        <item name="android:layout_height">@dimen/btnLogInHeight</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_circular</item>
+        <item name="android:text">@string/logIn</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/btnLogInTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="buttonBack" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/btnBackWidth</item>
+        <item name="android:layout_height">@dimen/btnBackHeight</item>
+        <item name="android:layout_marginStart">@dimen/btnBackMarginStart</item>
+        <item name="android:layout_marginTop">@dimen/btnBackMarginTop</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_back</item>
+    </style>
+
+    <style name="buttonCreateGame" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/btnCreateGameWidth</item>
+        <item name="android:layout_height">@dimen/btnCreateGameHeight</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_circular</item>
+        <item name="android:text">@string/createGame</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/btnCreateGameTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="buttonLogInToExistingGame" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btnLogInToExistingGameHeight</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/rectangle_semi_circular</item>
+        <item name="android:text">@string/logInToExistingGame</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/btnLogInToExistingGameTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="buttonExpand" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/btnExpandListWidth</item>
+        <item name="android:layout_height">@dimen/btnExpandListHeight</item>
+        <item name="android:background">@drawable/button_expand_list</item>
+    </style>
+
+    <style name="buttonExitExpandedList" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/btnExpandListWidth</item>
+        <item name="android:layout_height">@dimen/btnExpandListHeight</item>
+        <item name="android:layout_marginTop">@dimen/btnExitExpandedListMarginTop</item>
+        <item name="android:layout_marginEnd">@dimen/btnExitExpandedListMarginEnd</item>
+        <item name="android:background">@drawable/button_exit</item>
+    </style>
+
+    <style name="buttonStartGame" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btnStartGameHeight</item>
+        <item name="android:background">@drawable/rectangle_semi_circular_black</item>
+        <item name="android:text">@string/startGame</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/btnStartGameTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+    </style>
+
+    <style name="buttonNewGame" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btnNewGameHeight</item>
+        <item name="android:background">@drawable/rectangle_semi_circular</item>
+        <item name="android:text">@string/newGame</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/btnNewGameTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- widgets styles -->
+    <style name="dropdownMenu" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/dropdownWidth</item>
+        <item name="android:layout_height">@dimen/dropdownHeight</item>
+        <item name="android:background">@drawable/dropdown_list</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/dropdownMenuTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:animationDuration">@android:integer/config_shortAnimTime</item>
+        <item name="android:popupBackground">@drawable/rectangle_rounded_black</item>
+    </style>
+
+    <style name="spinnerDropdownItem" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/dropdownMenuTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="spinnerItem" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/spinnerItemPaddingStart</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/dropdownMenuTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+    </style>
+
+    <!-- imageView styles -->
+    <style name="qrHolderStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:padding">@dimen/qrHolderPadding</item>
+        <item name="contentDescription">@string/qrCodeView</item>
+    </style>
+
+
+    <!-- layout styles -->
+    <style name="listViewStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/listViewMarginStart</item>
+        <item name="android:layout_marginEnd">@dimen/listViewMarginEnd</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/listViewTextSize</item>
+        <item name="android:fontFamily">@font/baruta_black</item>
+        <item name="android:divider">@drawable/divider</item>
+        <item name="android:dividerHeight">@dimen/listViewDividerHeight</item>
+    </style>
+
+    <style name="newGameExtendedStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- shapes styles -->
+    <style name="roundedRectangle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/roundedRectangleWidth</item>
+        <item name="android:layout_height">@dimen/roundedRectangleHeight</item>
+    </style>
+
+</resources>

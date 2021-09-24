@@ -1,0 +1,37 @@
+<resources>
+    <!-- general strings -->
+    <string name="appName">Drink&amp;Talk</string>
+    <string name="gameLogo">logo</string>
+
+    <!-- activity_login.xml strings -->
+    <string name="nicknameInput">Daj nadimak ili ime</string>
+    <string name="logIn">PRIJAVI SE</string>
+
+    <!-- activity_create_game.xml strings -->
+    <string name="welcomeMsg">HELLOU</string>
+    <string name="createGame">KREIRAJ IGRU</string>
+    <string name="logInToExistingGame">PRIJAVI SE U POSTOJEĆU IGRU</string>
+
+    <!-- activity_new_game.xml strings -->
+    <string name="qrBckground">background for qr code</string>
+    <string name="qrCodeView">qrCodeView</string>
+    <string name="gameTime">VRIJEME IGRE</string>
+    <string name="listOfPlayersHeader">PRIJAVLJENA EKIPA</string>
+    <string name="startGame">KRENI S IGROM</string>
+
+    <!-- activity_game_in_progress.xml strings -->
+    <string name="circleWhite">white circle</string>
+    <string name="countdownPhoneDown">SPUSTI I NE DIRAJ\nMOBITEL ZA</string>
+    <string name="countdownNumber">10</string>
+    <string name="countdownSecond">SEKUNDI</string>
+    <string name="msgMain"><![CDATA[Ako podigneš mobitel u sljedećih <b>%1$s</b> ostalim igračima doći će notifikacija da si izgubio.<br/><br/><b>Budi fer i plati piće ako gubiš.</b>]]></string>
+
+    <!-- activity_game_result.xml strings -->
+    <string name="resultImg">result image</string>
+    <string name="lossTitle">LUUUZEER JE…</string>
+    <string name="lossDescription">NE SLUŠA EKIPU\nI PLAĆA OVU RUNDU.</string>
+    <string name="winTitle">BRAVO!</string>
+    <string name="winDescription">VI STE PRAVA EKIPA\nKOJA MOŽE ZABORAVITI\nTEHNOLOGIJU NA TREN.</string>
+    <string name="newGame">NOVA IGRA?</string>
+
+</resources>
